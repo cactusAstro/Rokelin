@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Compra Online el Auténtico Jamón de Teruel | Rokelin Puro Cerdo</title>
 <meta name="description" content="Rokelín, tu tienda online de Jamón D.O.P. de Teruel y embutidos artesanos. Restaurantes, franquicias y exportación desde 1975. ¡Descúbrenos!">
-<meta name="theme-color" content="#110c0a">
+<meta name="theme-color" content="#0a0807">
 <link rel="canonical" href="https://rokelin.com/">
 <meta property="og:locale" content="es_ES">
 <meta property="og:type" content="website">
@@ -23,7 +23,7 @@
 <link rel="shortcut icon" href="https://rokelin.com/wp-content/uploads/2016/12/favicon.ico">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..600&family=Hanken+Grotesk:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..600&family=Hanken+Grotesk:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <script type="application/ld+json">
 {
   "@context":"https://schema.org",
@@ -1015,6 +1015,182 @@ a.c-item:hover{border-color:rgba(202,164,90,.55);background:rgba(255,255,255,.06
   .gift__prod{opacity:1;translate:-50% -6%}
   .gift__lid{transform:translate(-6%,-70%) rotate(-18deg)}
 }
+
+/* ====================  v4 · MODO AGRESIVO  ==================== */
+:root{
+  --font-display:"Anton","Impact","Arial Narrow",sans-serif;
+  --font-serif:"Fraunces",Georgia,serif;
+  --hot:#c8160e;
+  --wine:#a8130c;
+  --wine-deep:#6e0c07;
+  --hot-2:#ff3b2f;
+  --paper:#efe8dc;
+  --paper-2:#f7f2ea;
+  --paper-3:#e3d9c8;
+  --ink:#0f0c0a;
+  --ink-soft:#4a4038;
+  --char:#0c0908;
+  --char-2:#141010;
+  --char-3:#1d1715;
+  --accent:var(--hot);
+  --radius:3px;
+  --ease-hard:cubic-bezier(.83,0,.17,1);
+  --ease-out:cubic-bezier(.19,1,.22,1);
+}
+:root[data-theme="bodega"]{
+  --paper:#0a0807;
+  --paper-2:#110d0b;
+  --paper-3:#1b1512;
+  --hot:#e8281d;
+  --accent:#e8281d;
+  --card:#141010;
+  --field:#0e0b0a;
+}
+html{font-synthesis-weight:none}
+::selection{background:var(--hot);color:#fff}
+::-webkit-scrollbar-thumb:hover{background:var(--hot)}
+
+/* ---- tipografía: palo seco condensado + cursiva con serifa ---- */
+h1,h2,h3{font-family:var(--font-display);font-weight:400;text-transform:uppercase;letter-spacing:.004em;line-height:1.15}
+:is(h1,h2,h3,.mani) em{font-family:var(--font-serif);text-transform:none;font-style:italic;font-weight:400;letter-spacing:-.025em;color:var(--hot);font-size:1.04em}
+.dark .head h2 em,.dark h2 em{color:var(--hot-2)}
+.head h2{font-size:clamp(2.9rem,6.6vw,6.2rem);margin:18px 0 20px}
+.kicker{color:var(--hot);letter-spacing:.32em}
+.kicker::before{width:9px;height:9px;background:var(--hot)}
+.kicker.light{color:var(--hot-2)}
+.kicker.light::before{background:var(--hot-2)}
+.stat b{color:var(--hot);font-size:clamp(3.4rem,6vw,5.4rem);line-height:.9}
+.mani{text-transform:uppercase;line-height:1.08;letter-spacing:0;max-width:17ch;font-size:clamp(2.4rem,6vw,5.6rem)}
+.mani em{font-size:1.02em}
+.ss-panel h3{font-size:clamp(3rem,6vw,5.4rem)}
+.hz__num{-webkit-text-stroke:1.5px rgba(232,40,29,.55)}
+.xrow__t{font-size:clamp(2.4rem,5.4vw,4.8rem);line-height:.9;text-transform:uppercase}
+.chefs__txt h2 em,.historia__top h2 em,.historia__txt h2 em{color:var(--hot-2)}
+.proceso__note p,.chefs__txt .idi,.hz__card--end .q,.ticker__group span,.grow__cap em{font-family:var(--font-serif)}
+.ticker--hero .ticker__group span{font-family:var(--font-display)}
+.nw{white-space:nowrap}
+.xrow:hover .xrow__t,.xrow:focus-visible .xrow__t{font-style:normal;transform:translateX(18px) skewX(-8deg)}
+.hero__rot{font-family:var(--font-display);text-transform:uppercase;letter-spacing:.02em}
+.hero__rot .rot{font-family:var(--font-serif);text-transform:none;font-style:italic;color:var(--hot-2)}
+
+/* ---- formas: cortes rectos ---- */
+.c-item,.c-item__ic,.calc__card,.chef,.chefs__img,.feature__ic,.form,.gift__box,.gift__lid,.how__item,.hz__card,.idea,.lang__menu,.menu-card,.panel,.pro-card,.pro-card__ic,.prod,.ss-stage,.submenu,.tile,.tip,.video-frame,.grow .video-frame,.xfloat__in,.xrow__img,.alt,.mbar,.mbar a,.field input,.field select,.field textarea{border-radius:3px}
+.chip,.tab,.dop__badge,.prod__badge,.video-tag,.place,.theme-row,.c-langs a,.drawer-foot .langs a,.lang__btn{border-radius:2px}
+
+/* ---- botones ---- */
+.btn{--bg:var(--hot);--fg:#fff;--hover:#0a0807;--hover-fg:#fff;border-radius:2px;font-weight:800;letter-spacing:.18em}
+.btn::after{transform:translateX(-101%);transition:transform .5s var(--ease-hard)}
+.btn:hover{transform:none}
+.btn:hover::after{transform:none}
+.btn--gold{--bg:var(--hot);--fg:#fff;--hover:#0a0807;--hover-fg:#fff;clip-path:polygon(0 0,100% 0,100% calc(100% - 12px),calc(100% - 12px) 100%,0 100%)}
+.btn--gold::before{display:none}
+.btn--ghost{border-width:2px;border-color:rgba(245,240,228,.7)}
+.btn--ghost:hover,.btn--line:hover{border-color:var(--hot)}
+.btn--ghost{--bg:transparent;--fg:var(--cream);--hover:var(--hot);--hover-fg:#fff}
+.btn--line{--bg:transparent;--fg:var(--ink);--hover:var(--hot);--hover-fg:#fff}
+
+/* ---- cabecera ---- */
+.nav a{text-transform:uppercase;font-size:.74rem;letter-spacing:.16em;font-weight:800}
+.nav a:hover{color:var(--hot-2)}
+.nav a::after{background:var(--hot);height:2px}
+
+/* ---- cursor que invierte ---- */
+.cursor{border:1.5px solid #fff;mix-blend-mode:difference}
+.cursor-dot{background:var(--hot-2);box-shadow:none}
+.cursor.is-link{background:#fff;border-color:#fff}
+.cursor.is-label{mix-blend-mode:normal;background:var(--hot);border-color:var(--hot)}
+.cursor.is-label span{color:#fff}
+
+/* ---- focos rojos en zonas oscuras ---- */
+.spot::after{background:radial-gradient(560px circle at var(--sx,50%) var(--sy,-600px),rgba(232,40,29,.13),transparent 65%)}
+
+/* ---- titulares: entran cortados desde abajo ---- */
+.fx .words .w{clip-path:inset(-.4em -.2em -.22em -.2em)}
+.fx .words .w>span{opacity:1;filter:none;transform:translate3d(0,150%,0) skewY(12deg);transition:transform 1s var(--ease-out);transition-delay:calc(var(--i,0) * 45ms + var(--d,0ms))}
+.fx .words.in .w>span{transform:none}
+
+/* ---- hero ---- */
+.hero__bg video{filter:grayscale(.55) contrast(1.25) brightness(.8)}
+.hero__bg::after{background:
+  linear-gradient(90deg,rgba(10,8,7,.94) 0%,rgba(10,8,7,.7) 45%,rgba(10,8,7,.25) 100%),
+  linear-gradient(180deg,rgba(10,8,7,.6) 0%,transparent 30%,transparent 60%,rgba(10,8,7,.9) 100%),
+  radial-gradient(70% 60% at 85% 100%,rgba(200,22,14,.35),transparent 70%)}
+.hero__content{max-width:min(1000px,100%)}
+.hero h1{font-size:clamp(3rem,6.9vw,6.8rem);line-height:.93;letter-spacing:.004em;margin-top:18px}
+.hero h1 em{font-family:var(--font-serif);color:var(--hot-2);font-size:1.02em}
+.fx .hero .words .w{clip-path:none}
+.fx .hero .words .w>span{opacity:0;filter:blur(12px);transform:scale(2.4) translate3d(0,-.1em,0);transition:transform .62s cubic-bezier(.3,1.25,.4,1),opacity .3s linear,filter .45s var(--ease-out);transition-delay:calc(var(--i,0) * 75ms + var(--d,0ms))}
+.fx .hero .words.in .w>span{opacity:1;filter:none;transform:none}
+.hero h1.hit{animation:hit .42s linear}
+@keyframes hit{
+  0%{transform:translate(0,0)}15%{transform:translate(-6px,3px)}30%{transform:translate(5px,-4px)}
+  45%{transform:translate(-4px,-2px)}60%{transform:translate(3px,3px)}75%{transform:translate(-2px,1px)}100%{transform:translate(0,0)}
+}
+.hero__flash{position:absolute;inset:0;z-index:0;pointer-events:none;background:linear-gradient(100deg,transparent 30%,rgba(232,40,29,.55) 48%,rgba(255,240,230,.4) 50%,rgba(232,40,29,.55) 52%,transparent 70%);transform:translateX(-120%);opacity:0}
+.hero__flash.go{animation:flash .7s var(--ease-hard)}
+@keyframes flash{0%{opacity:1;transform:translateX(-120%)}100%{opacity:1;transform:translateX(120%)}}
+.ticker--hero .ticker__group span{font-family:var(--font-display);font-style:normal;font-weight:400;text-transform:uppercase;font-size:clamp(5rem,15vw,14rem);line-height:1;-webkit-text-stroke:1.5px rgba(232,40,29,.3)}
+.ticker--hero .ticker__group i{color:var(--hot-2)}
+.hero__hud i{background:var(--hot-2)}
+.hero__hud b{background:linear-gradient(90deg,var(--hot),transparent)}
+.hero em:hover{animation:glitch .5s steps(2) 1}
+@keyframes glitch{
+  0%{text-shadow:3px 0 rgba(0,240,255,.75),-3px 0 rgba(255,30,30,.85);transform:translateX(0)}
+  25%{text-shadow:-4px 0 rgba(0,240,255,.75),4px 0 rgba(255,30,30,.85);transform:translateX(2px)}
+  50%{text-shadow:2px 1px rgba(0,240,255,.75),-2px -1px rgba(255,30,30,.85);transform:translateX(-2px)}
+  100%{text-shadow:none;transform:none}
+}
+
+/* ---- sello giratorio ---- */
+.stamp{position:absolute;z-index:1;right:max(20px,calc((100% - var(--maxw)) / 2 + 40px));bottom:clamp(150px,21vh,210px);width:clamp(118px,11vw,160px);aspect-ratio:1;pointer-events:none;color:#fff}
+.stamp__turbo,.stamp__spin{position:absolute;inset:0}
+.fx .stamp__spin{animation:spin 22s linear infinite}
+.stamp svg{width:100%;height:100%;overflow:visible}
+.stamp text{font-family:var(--font-sans);font-weight:800;font-size:15.5px;letter-spacing:4.2px;fill:currentColor;text-transform:uppercase}
+.stamp__core{position:absolute;inset:26%;border-radius:50%;background:var(--hot);display:grid;place-items:center;box-shadow:0 0 0 6px rgba(232,40,29,.18),0 18px 40px -10px rgba(232,40,29,.6)}
+.stamp__core i{width:74%;height:40%;background:#fff;-webkit-mask:var(--trazo) center/contain no-repeat;mask:var(--trazo) center/contain no-repeat}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* ---- cintas cruzadas ---- */
+.tapes{position:relative;height:clamp(190px,24vw,330px);overflow:hidden;background:var(--paper);display:grid;place-items:center;isolation:isolate}
+.tape{position:absolute;left:-6%;right:-6%;padding:.32em 0 .28em;font-family:var(--font-display);text-transform:uppercase;font-size:clamp(1.9rem,4.4vw,3.9rem);line-height:1;white-space:nowrap;overflow:hidden}
+.tape__track{display:flex;width:max-content;will-change:transform}
+.tape__group{display:flex;align-items:center;gap:.55em;padding-right:.55em}
+.tape__group i{font-style:normal;font-size:.5em;opacity:.9}
+.tape--a{z-index:2;background:var(--hot);color:#fff;transform:rotate(-4deg);box-shadow:0 24px 50px -14px rgba(0,0,0,.55)}
+.tape--b{z-index:1;background:var(--ink);color:var(--paper);transform:rotate(3.2deg)}
+.tape--b .tape__group i{color:var(--hot)}
+
+/* ---- zoom: ROKELIN que te traga ---- */
+.zoom{position:relative;background:#0a0807;color:#fff}
+.zoom__sticky{position:relative;height:88vh;min-height:520px;overflow:hidden}
+.fx .zoom{height:280vh}
+.fx .zoom__sticky{position:sticky;top:0;height:100vh;height:100svh;min-height:0}
+.zoom__media{position:absolute;inset:0}
+.zoom__media img{width:100%;height:100%;object-fit:cover;transform:scale(calc(1.22 - var(--z,1) * .22));filter:contrast(1.1) saturate(1.1)}
+.zoom__mask{display:none}
+.fx .zoom__mask{display:grid;position:absolute;inset:0;place-items:center;background:#0a0807;color:#fff;mix-blend-mode:multiply;transform:scale(var(--zs,1));opacity:var(--zm,1)}
+.zoom__word{display:flex;flex-direction:column;align-items:center;font-family:var(--font-display);text-transform:uppercase;line-height:.84;text-align:center}
+.zoom__word b{font-weight:400;font-size:min(25vw,42vh)}
+.zoom__word small{font-size:min(6.2vw,10.5vh);letter-spacing:.36em;margin-top:.35em;padding-left:.36em}
+.zoom__hint{position:absolute;left:50%;bottom:28px;translate:-50% 0;font-size:.66rem;letter-spacing:.3em;text-transform:uppercase;font-weight:800;color:rgba(255,255,255,.6);opacity:calc(1 - var(--z,0) * 6);display:none}
+.fx .zoom__hint{display:block}
+.zoom__cap{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:flex-end;padding:0 max(20px,calc((100% - var(--maxw)) / 2 + 56px)) clamp(40px,9vh,90px);background:linear-gradient(180deg,rgba(10,8,7,.2) 0%,rgba(10,8,7,.35) 35%,rgba(10,8,7,.92));pointer-events:none}
+.fx .zoom__cap{opacity:var(--zc,0);transform:translate3d(0,calc((1 - var(--zc,0)) * 40px),0)}
+.zoom__cap p{font-family:var(--font-display);text-transform:uppercase;font-size:clamp(2.6rem,7vw,6.6rem);line-height:.9;max-width:12ch;margin-top:18px}
+.zoom__cap p em{font-family:var(--font-serif);text-transform:none;color:var(--hot-2);font-size:1.03em}
+.zoom__stats{display:flex;flex-wrap:wrap;gap:14px 44px;margin-top:30px}
+.zoom__stats b{display:block;font-family:var(--font-display);font-weight:400;font-size:clamp(1.9rem,3.2vw,2.8rem);line-height:1;color:var(--hot-2)}
+.zoom__stats small{display:block;margin-top:6px;font-size:.7rem;letter-spacing:.22em;text-transform:uppercase;font-weight:800;color:rgba(255,255,255,.75)}
+@media (max-width:700px){
+  .stamp{width:96px;bottom:auto;top:calc(96px + 3vh);right:16px}
+  .hero__hud{display:none}
+  .tape{font-size:clamp(1.5rem,7.4vw,2.4rem)}
+  .zoom__word b{font-size:27vw}
+  .zoom__word small{font-size:6.6vw}
+  .zoom__cap{padding-bottom:120px}
+}
+.mbar__shop{background:var(--hot);color:#fff}
 </style>
 <script>
 (function(){
@@ -1196,10 +1372,15 @@ a.c-item:hover{border-color:rgba(202,164,90,.55);background:rgba(255,255,255,.06
       </video>
     </div>
     <canvas class="hero__fx" aria-hidden="true"></canvas>
+    <div class="hero__flash" aria-hidden="true"></div>
     <div class="ticker ticker--hero" aria-hidden="true">
       <div class="ticker__track"><div class="ticker__group"><span>Jamón de Teruel</span><i>✦</i><span>Puro Cerdo</span><i>✦</i><span>Desde 1975</span><i>✦</i><span>Curado en altura</span><i>✦</i></div><div class="ticker__group"><span>Jamón de Teruel</span><i>✦</i><span>Puro Cerdo</span><i>✦</i><span>Desde 1975</span><i>✦</i><span>Curado en altura</span><i>✦</i></div></div>
     </div>
     <div class="hero__hud" aria-hidden="true"><i></i><span>Teruel</span><b></b><span>40°20′ N · 1°06′ O</span><b></b><span>915 m</span></div>
+    <div class="stamp" aria-hidden="true">
+      <div class="stamp__turbo"><div class="stamp__spin"><svg viewBox="0 0 200 200"><defs><path id="stampPath" d="M100,100 m-80,0 a80,80 0 1,1 160,0 a80,80 0 1,1 -160,0"/></defs><text><textPath href="#stampPath">Puro cerdo ✦ D.O.P. Teruel ✦ Desde 1975 ✦</textPath></text></svg></div></div>
+      <div class="stamp__core"><i></i></div>
+    </div>
     <div class="wrap hero__inner">
       <div class="hero__content">
         <div class="hero__mark h-up d1" role="img" aria-label="Trazo de jamón Rokelin"></div>
@@ -1223,6 +1404,12 @@ a.c-item:hover{border-color:rgba(202,164,90,.55);background:rgba(255,255,255,.06
     </div>
   </section>
 
+  <!-- ==================== CINTAS ==================== -->
+  <section class="tapes" aria-hidden="true">
+    <div class="tape tape--b"><div class="tape__track"><div class="tape__group"><span>Frío</span><i>●</i><span>Altura</span><i>●</i><span>Sal</span><i>●</i><span>Paciencia</span><i>●</i><span>Teruel</span><i>●</i><span>Rokelin</span><i>●</i></div><div class="tape__group"><span>Frío</span><i>●</i><span>Altura</span><i>●</i><span>Sal</span><i>●</i><span>Paciencia</span><i>●</i><span>Teruel</span><i>●</i><span>Rokelin</span><i>●</i></div><div class="tape__group"><span>Frío</span><i>●</i><span>Altura</span><i>●</i><span>Sal</span><i>●</i><span>Paciencia</span><i>●</i><span>Teruel</span><i>●</i><span>Rokelin</span><i>●</i></div></div></div>
+    <div class="tape tape--a"><div class="tape__track"><div class="tape__group"><span>Puro cerdo</span><i>✦</i><span>Jamón D.O.P. Teruel</span><i>✦</i><span>Curado en altura</span><i>✦</i><span>Desde 1975</span><i>✦</i><span>Sin atajos</span><i>✦</i></div><div class="tape__group"><span>Puro cerdo</span><i>✦</i><span>Jamón D.O.P. Teruel</span><i>✦</i><span>Curado en altura</span><i>✦</i><span>Desde 1975</span><i>✦</i><span>Sin atajos</span><i>✦</i></div><div class="tape__group"><span>Puro cerdo</span><i>✦</i><span>Jamón D.O.P. Teruel</span><i>✦</i><span>Curado en altura</span><i>✦</i><span>Desde 1975</span><i>✦</i><span>Sin atajos</span><i>✦</i></div></div></div>
+  </section>
+
   <!-- ==================== MANIFIESTO ==================== -->
   <section class="manifiesto" id="manifiesto">
     <div class="wrap">
@@ -1239,7 +1426,7 @@ a.c-item:hover{border-color:rgba(202,164,90,.55);background:rgba(255,255,255,.06
       <div class="historia__top">
         <div class="reveal">
           <span class="kicker">Nuestra historia</span>
-          <h2>¿Qué es <em>Rokelin</em>?</h2>
+          <h2>¿Qué es <span class="nw"><em>Rokelin</em>?</span></h2>
         </div>
         <div class="historia__txt reveal dl1">
           <p>ROKELIN es una marca con raíz turolense cuyo origen se remonta a 1975, cuando D. Roque Orriols abre su primera tienda de charcutería. Aquella pequeña empresa familiar ha evolucionado hasta nuestros días convirtiéndose en un referente en la producción, distribución, restauración mediante el modelo de franquicia y exportación de productos artesanales de Teruel.</p>
@@ -1298,6 +1485,24 @@ a.c-item:hover{border-color:rgba(202,164,90,.55);background:rgba(255,255,255,.06
           <img class="xrow__img" src="https://rokelin.com/wp-content/uploads/2018/08/nuestros-chefs.jpg" alt="" loading="lazy" decoding="async">
         </a></li>
         </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== ZOOM ==================== -->
+  <section class="zoom" id="zoom" aria-label="Rokelin, puro cerdo">
+    <div class="zoom__sticky">
+      <div class="zoom__media"><img src="https://rokelin.com/wp-content/uploads/2018/09/jamon-curado-rokelin.jpg" alt="Jamón curado Rokelin" loading="lazy" decoding="async"></div>
+      <div class="zoom__mask" aria-hidden="true"><div class="zoom__word"><b>ROKEL<span class="zoom__i">I</span>N</b><small>Puro cerdo</small></div></div>
+      <span class="zoom__hint" aria-hidden="true">Sigue bajando</span>
+      <div class="zoom__cap">
+        <span class="kicker light">Sin atajos</span>
+        <p>Frío, altura, sal y <em>paciencia.</em></p>
+        <div class="zoom__stats">
+          <div><b>+50</b><small>Años de oficio</small></div>
+          <div><b>+800 m</b><small>De altitud</small></div>
+          <div><b>D.O.P.</b><small>Jamón de Teruel</small></div>
+        </div>
       </div>
     </div>
   </section>
@@ -1838,7 +2043,7 @@ a.c-item:hover{border-color:rgba(202,164,90,.55);background:rgba(255,255,255,.06
       <a href="https://rokelin.com/wp-content/uploads/2016/12/fondos-feder.jpg" target="_blank" rel="noopener">
         <img src="https://rokelin.com/wp-content/uploads/2016/12/fondos-feder.jpg" alt="Fondos FEDER — Una manera de hacer Europa" loading="lazy">
       </a>
-      <small>Fondo Europeo de Desarrollo Regional. Una manera de hacer Europa. </small>
+      <small>Fondo Europeo de Desarrollo Regional. Una manera de hacer Europa.</small>
     </div>
   </div>
   <div class="foot-bar">
@@ -1849,7 +2054,7 @@ a.c-item:hover{border-color:rgba(202,164,90,.55);background:rgba(255,255,255,.06
       <span class="sep">·</span>
       <a href="tel:+34978611869">(+34) 978 611 869</a>
       <span class="sep">·</span>
-      <span>Sitio web desarrollado por ATR</span>
+      <span>Sitio web desarrollado por <a href="https://infoter.net/" target="_blank" rel="noopener">Infoter</a></span>
     </div>
   </div>
 </footer>
@@ -2483,7 +2688,7 @@ a.c-item:hover{border-color:rgba(202,164,90,.55);background:rgba(255,255,255,.06
       b.setAttribute('title', t === 'bodega' ? 'Cambiar a modo claro' : 'Cambiar a modo bodega');
     });
     var meta = document.querySelector('meta[name="theme-color"]');
-    if(meta) meta.setAttribute('content', t === 'bodega' ? '#110c0a' : '#181210');
+    if(meta) meta.setAttribute('content', t === 'bodega' ? '#0a0807' : '#0c0908');
   }
   themeBtns.forEach(function(b){
     b.addEventListener('click', function(){
@@ -2699,6 +2904,139 @@ a.c-item:hover{border-color:rgba(202,164,90,.55);background:rgba(255,255,255,.06
   window.addEventListener('resize', function(){ clearTimeout(v3Resize); v3Resize = setTimeout(function(){ hzMontar(); onScroll(); }, 200); });
   if(document.fonts && document.fonts.ready) document.fonts.ready.then(function(){ hzMontar(); onScroll(); });
   onScroll();
+
+  // ===== v4 · modo agresivo =====
+  // golpe del titular: cuando cae la última palabra, sacudida + barrido rojo
+  var heroH1 = document.querySelector('.hero h1'), heroFlash = document.querySelector('.hero__flash');
+  if(FX && heroH1 && 'MutationObserver' in window){
+    var hitDone = false;
+    var hitObs = new MutationObserver(function(){
+      if(hitDone || !heroH1.classList.contains('in')) return;
+      hitDone = true; hitObs.disconnect();
+      var n = heroH1.querySelectorAll('.w').length;
+      setTimeout(function(){
+        heroH1.classList.add('hit');
+        if(heroFlash) heroFlash.classList.add('go');
+        setTimeout(function(){ heroH1.classList.remove('hit'); }, 450);
+      }, 120 + n * 75 + 380);
+    });
+    hitObs.observe(heroH1, {attributes:true, attributeFilter:['class']});
+  }
+
+  // letras que se revuelven al pasar el ratón
+  if(fine && !reduce){
+    var RUN = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ#%&*/0123456789';
+    var rumble = function(el){
+      var node = null;
+      for(var c = el.firstChild; c; c = c.nextSibling){ if(c.nodeType === 3 && c.textContent.trim()){ node = c; break; } }
+      if(!node || el._rb) return;
+      var fin = node.textContent, t0 = null;
+      el._rb = true; el.style.minWidth = el.offsetWidth + 'px';
+      (function step(t){
+        if(t0 === null) t0 = t;
+        var p = Math.min((t - t0) / 420, 1), ok = Math.floor(p * fin.length), out = '';
+        for(var i = 0; i < fin.length; i++){
+          var ch = fin.charAt(i);
+          out += (i < ok || /\s/.test(ch)) ? ch : RUN.charAt((Math.random() * RUN.length) | 0);
+        }
+        node.textContent = p < 1 ? out : fin;
+        if(p < 1) requestAnimationFrame(step); else { el._rb = false; el.style.minWidth = ''; }
+      })(performance.now());
+    };
+    document.querySelectorAll('.nav > a, .nav .has-sub > a, .btn').forEach(function(el){
+      el.addEventListener('mouseenter', function(){ rumble(el); });
+    });
+  }
+
+  // velocidad de scroll: titulares que se inclinan, cintas y sello que aceleran
+  var tapesSec = document.querySelector('.tapes'), stampSpin = document.querySelector('.stamp__turbo');
+  if(FX){
+    var skEls = [], vis = new WeakMap();
+    document.querySelectorAll('.head h2, .historia__top h2, .chefs__txt h2, .mani, .zoom__cap p').forEach(function(el){ skEls.push(el); });
+    var tapes = [];
+    if(tapesSec){
+      tapesSec.querySelectorAll('.tape').forEach(function(t, k){
+        tapes.push({el: t.querySelector('.tape__track'), g: t.querySelector('.tape__group'), w: 0, x: 0, s: k ? -1 : 1});
+      });
+      skEls.push(tapesSec);
+    }
+    if('IntersectionObserver' in window){
+      var vio = new IntersectionObserver(function(es){ es.forEach(function(e){ vis.set(e.target, e.isIntersecting); }); }, {rootMargin:'120px 0px'});
+      skEls.forEach(function(el){ vio.observe(el); });
+    }
+    var measureTapes = function(){ tapes.forEach(function(t){ t.w = t.g.offsetWidth; }); };
+    measureTapes();
+    window.addEventListener('resize', measureTapes);
+    if(document.fonts && document.fonts.ready) document.fonts.ready.then(measureTapes);
+
+    var vY = window.pageYOffset, vel = 0, dir = 1, skLast = 0, spinA = 0;
+    (function vLoop(){
+      var y = window.pageYOffset, d = y - vY; vY = y;
+      vel += (d - vel) * .16;
+      if(vel > .6) dir = 1; else if(vel < -.6) dir = -1;
+      var sk = Math.max(-7, Math.min(7, vel * .22));
+      if(Math.abs(sk) < .02) sk = 0;
+      if(sk !== skLast){
+        skLast = sk;
+        for(var i = 0; i < skEls.length; i++){
+          var el = skEls[i];
+          if(el === tapesSec) continue;
+          if(vis.get(el) !== false) el.style.transform = sk ? 'skewY(' + sk.toFixed(2) + 'deg)' : '';
+        }
+      }
+      if(tapesSec && vis.get(tapesSec) !== false){
+        var boost = 1.1 + Math.min(Math.abs(vel) * .45, 26);
+        for(var k = 0; k < tapes.length; k++){
+          var t = tapes[k]; if(!t.w) continue;
+          t.x = (t.x + boost * dir * t.s) % t.w;
+          if(t.x > 0) t.x -= t.w;
+          t.el.style.transform = 'translate3d(' + t.x.toFixed(1) + 'px,0,0)';
+        }
+      }
+      if(stampSpin){
+        spinA = (spinA + vel * .35) % 360;
+        stampSpin.style.transform = 'rotate(' + spinA.toFixed(2) + 'deg)';
+      }
+      requestAnimationFrame(vLoop);
+    })();
+  }
+
+  // zoom a través de ROKELIN
+  var zoomSec = document.getElementById('zoom');
+  if(FX && zoomSec){
+    var zMask = zoomSec.querySelector('.zoom__mask'), zI = zoomSec.querySelector('.zoom__i'), zMax = 30;
+    var zCv = document.createElement('canvas').getContext('2d');
+    var zMeasure = function(){
+      zMask.style.transform = 'none';
+      var mr = zMask.getBoundingClientRect(), ir = zI.getBoundingClientRect(), cs = getComputedStyle(zI);
+      zCv.font = cs.fontWeight + ' ' + cs.fontSize + ' ' + cs.fontFamily;
+      var m = zCv.measureText('I'), fa = m.fontBoundingBoxAscent, fd = m.fontBoundingBoxDescent;
+      var stem = (m.actualBoundingBoxLeft + m.actualBoundingBoxRight) || ir.width * .5;
+      var ox = ir.left - mr.left + (m.actualBoundingBoxRight - m.actualBoundingBoxLeft) / 2;
+      // la caja del span mide ascent+descent de la fuente: el centro del trazo queda a media altura de mayúscula
+      var base = fa ? ir.top + (ir.height - fa - fd) / 2 + fa : ir.top + ir.height * .78;
+      var oy = base - mr.top - ((m.actualBoundingBoxAscent || ir.height * .6) - (m.actualBoundingBoxDescent || 0)) / 2;
+      zMask.style.transformOrigin = ox.toFixed(1) + 'px ' + oy.toFixed(1) + 'px';
+      zMax = Math.max(12, Math.min(120, Math.max(ox, mr.width - ox) / (stem / 2) * 1.15));
+      zMask.style.transform = '';
+    };
+    zMeasure();
+    window.addEventListener('resize', zMeasure);
+    if(document.fonts && document.fonts.ready) document.fonts.ready.then(zMeasure);
+    var zLast = -1;
+    scrollHooks.push(function(){
+      var r = zoomSec.getBoundingClientRect(), span = r.height - window.innerHeight;
+      if(r.bottom < -50 || r.top > window.innerHeight + 50) return;
+      var p = clamp(-r.top / (span || 1));
+      if(Math.abs(p - zLast) < .0005) return; zLast = p;
+      var a = clamp(p / .62), e = a * a * a;
+      zoomSec.style.setProperty('--zs', (1 + e * (zMax - 1)).toFixed(3));
+      zoomSec.style.setProperty('--zm', (1 - clamp((p - .56) / .1)).toFixed(3));
+      zoomSec.style.setProperty('--z', p.toFixed(4));
+      zoomSec.style.setProperty('--zc', clamp((p - .64) / .16).toFixed(3));
+    });
+    update();
+  }
 
   // year
   document.getElementById('year').textContent = new Date().getFullYear();
